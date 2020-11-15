@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "KatahdinRound";
+  src: local("../fonts/KatahdinRound.otf"), url("../fonts/KatahdinRound.otf");
+}
+
+@font-face {
+  font-family: "Product";
+  src: local("../fonts/Product Sans Regular.ttf"), url("../fonts/Product Sans Regular.ttf");
+}
+
+body {
+  background-image: url("../images/waves.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  color: white;
+  font-family: "Product";
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  top: 0;
+  background-color: #121212;
+}
+
+.planet-img {
+  float: right;
+  margin-top: 10%;
+  margin-right: 100px;
+  width: 35%;
+  height: 25%;
+}
+
+.head-container {
+  width: 50%;
+  height: 700px;
+  text-align: left;
+  display: block;
+  margin-left: 100px;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.heading-white-title {
+  color: white;
+  font-family: "KatahdinRound";
+  font-size: 500%;
+  letter-spacing: 15px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.heading-desc {
+  color: #52057b;
+  font-family: "Product";
+  font-size: 45px;
+  margin-top: 50px;
+}
+
+.container {
+  background-color: #121212;
+  width: 70%;
+  margin: 150px auto 150px auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.juan-img {
+  width: 300px;
+  height: 300px;
+}
+
+.pa-white {
+  color: white;
+  font-family: "Product";
+  font-weight: lighter;
+  font-size: 22px;
+  margin-top: 0;
+  width: 50%;
+  margin: 20px auto 20px auto;
+  text-indent: 2;
+}
+
+.white-link {
+  color: white;
+  font-family: "Product";
+  font-weight: lighter;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.white-link:hover {
+  color: #52057b;
+}
+
+.skills-tab {
+  width: 70%;
+  margin: 50px auto 50px auto;
+}
+
+.contact-btn{
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  color: #52057B;
+  font-family: "Product";
+  font-size: 40px;
+  padding: 20px;
+  background-color: #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  border: solid #52057B 6px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.contact-btn:hover{
+  background-color: #52057B;
+  color: white;
+}
+
+.footer {
+  margin-top: 150px;
+  background-color: #121212;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.copyright{
+  font-style: "Product";
+  font-size: 0.7rem;
+  color: gray;
+  padding: 15px;
+}
