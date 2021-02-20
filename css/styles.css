@@ -1,13 +1,3 @@
-@font-face {
-  font-family: "KatahdinRound";
-  src: local("../fonts/KatahdinRound.otf"), url("../fonts/KatahdinRound.otf");
-}
-
-@font-face {
-  font-family: "Product";
-  src: local("../fonts/Product Sans Regular.ttf"), url("../fonts/Product Sans Regular.ttf");
-}
-
 body {
   background-image: url("../images/waves.png");
   background-repeat: no-repeat;
@@ -17,109 +7,145 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-family: "Londrina Solid";
+  font-weight: 900;
+  font-size: 700%;
+  color: white;
+}
+
+h2 {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 300%;
+  color: #52057b;
+}
+
+h3 {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 300%;
+  color: white;
+  padding-bottom: 5%;
+  margin: auto;
+}
 ul {
   text-align: center;
 }
 
 li {
   color: white;
-  font-family: "Product";
+  font-family: "Ubuntu";
   font-weight: lighter;
   font-size: 20px;
   padding: 20px;
 }
 
-.navbar {
-  height: 50px;
-  width: 100%;
-  position: fixed;
-  margin: 0;
-  top: 0;
-  background-color: #121212;
-}
-
-.planet-img {
-  float: right;
-  margin-top: 10%;
-  margin-right: 100px;
-  width: 35%;
-  height: 25%;
-}
-
-.head-container {
-  width: 50%;
-  height: 700px;
-  text-align: left;
-  display: block;
-  margin-left: 100px;
-  margin-top: 100px;
-  padding: 20px;
-}
-
-.heading-white-title {
+.pa-white {
   color: white;
-  font-family: "KatahdinRound";
-  font-size: 500%;
-  letter-spacing: 15px;
-  font-weight: lighter;
+  width: 60%;
+}
+
+.navbar {
   margin-bottom: 20px;
 }
 
-.heading-desc {
-  color: #52057b;
-  font-family: "Product";
-  font-size: 45px;
-  margin-top: 50px;
+.navbar-brand {
+  font-size: 1.8rem;
+  font-family: "Ubuntu"
 }
 
-.container {
+.nav-link {
+  font-size: 1.3rem;
+  text-align: left;
+  font-family: "Ubuntu"
+}
+
+.izq {
+  text-align: left;
+  padding: 5%;
+}
+
+.der {
+  margin-top: auto;
+  margin-left: auto;
+  margin-bottom: 10%;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.circular {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 4%;
+}
+
+.gris {
   background-color: #121212;
-  width: 70%;
-  margin: 150px auto 150px auto;
-  padding: 50px;
+  padding: 5%;
   text-align: center;
 }
 
-.juan-img {
-  width: 300px;
-  height: 300px;
-}
-
-.pa-white {
-  color: white;
-  font-family: "Product";
-  font-weight: lighter;
-  font-size: 22px;
-  margin-top: 0;
-  width: 50%;
-  margin: 20px auto 20px auto;
-  text-indent: 2;
-}
-
 .white-link {
-  color: white;
-  font-family: "Product";
-  font-weight: lighter;
+  color: #52057b;
+  font-family: "Ubuntu";
   font-size: 1rem;
-  padding: 10px;
+  margin: 1% auto;
 }
 
 .white-link:hover {
-  color: #52057b;
+  color: white;
 }
 
-.skills-tab {
-  width: 70%;
-  margin: 50px auto 50px auto;
+.works {
+  padding: 5%;
+  text-align: center;
+}
+
+.proyect {
+  background-color: #121212;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 1%;
+}
+.githubbtn{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+}
+
+.desc {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+}
+
+#Skills{
+  margin-bottom: 200px;
+}
+.skills{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.skill{
+  padding: 2%;
+}
+
+#Contact{
+  text-align: center;
 }
 
 .contact-btn{
+  margin: 2%;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
   border-radius: 60px;
   color: #52057B;
-  font-family: "Product";
-  font-size: 40px;
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
   padding: 20px;
   background-color: #000000;
   box-shadow: 1px 1px 20px 0 #000000;
@@ -131,22 +157,48 @@ li {
   cursor: pointer;
   text-align: center;
 }
+
 .contact-btn:hover{
   background-color: #52057B;
   color: white;
 }
 
+.link{
+  width: 60px;
+  height: 60px;
+  color: white;
+  font-size: 2.8rem;
+  text-align: center;
+  padding: 0;
+  margin: 0.5%;
+}
+.link:hover{
+  color: #52057B;
+}
+
 .footer {
-  margin-top: 150px;
+  margin-top: 200px;
   background-color: #121212;
   width: 100%;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.copyright{
-  font-style: "Product";
-  font-size: 0.7rem;
-  color: gray;
-  padding: 15px;
+
+@media only screen and (max-width: 990px) {
+  .izq{
+    text-align: center;
+    margin-top: 70px;
+  }
+  .der{
+    text-align: center;
+    padding: 0;
+  }
+  h2{
+    font-size: 150%;
+  }
+  .imagen{
+    height: 70%;
+    width: 70%;
+  }
 }
